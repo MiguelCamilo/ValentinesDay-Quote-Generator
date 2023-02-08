@@ -1,0 +1,14 @@
+body {
+    background-image: url('./assets/images/bg1.jpeg');
+	background-position: center;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+	transition-duration: 1.3s;
+	transition-timing-function: cubic-bezier(0.97, 0.15, 0.82, 0.75);
+	transition-delay: 0.15s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
