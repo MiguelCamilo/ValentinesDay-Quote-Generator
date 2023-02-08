@@ -5,6 +5,7 @@ export default function Quotes() {
 	const url = `https://api.quotable.io/random?tags=love`;
 	const [quote, setQuote] = useState(null);
 
+	
 	// creates random image
 	const changeImage = () => {
 		const totalBg = 10;
